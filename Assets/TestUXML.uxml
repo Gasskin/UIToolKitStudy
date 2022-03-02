@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd">
+    <Style src="project://database/Assets/USS/TestUSS.uss?fileID=7433441132597879392&amp;guid=82b3f1e7acd825545bfe058793efb0bb&amp;type=3#TestUSS" />
+    <ui:Button text="Button" display-tooltip-when-elided="true" name="Button" class="a" style="height: 77px; background-color: rgba(111, 111, 109, 255);" />
+</ui:UXML>

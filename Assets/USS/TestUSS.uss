@@ -1,0 +1,11 @@
+.a {
+    background-color: rgba(255, 0, 0, 255);
+}
+
+.a:focus {
+    background-color: rgba(255, 161, 0, 255);
+}
+
+.a:hover {
+    background-color: rgba(0, 97, 255, 255);
+}
