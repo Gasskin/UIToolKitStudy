@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement style="flex-grow: 1; align-items: flex-start;">
+        <uie:IntegerField label="Int区域" value="42" binding-path="a" style="flex-direction: row; background-color: rgba(255, 255, 255, 0);" />
+        <uie:ObjectField label="Object Field" binding-path="c" type="UnityEngine.GameObject, UnityEngine.CoreModule" />
+        <ui:Toggle label="Toggle" binding-path="b" />
+        <ui:Button text="Button" display-tooltip-when-elided="true" />
+    </ui:VisualElement>
+</ui:UXML>
